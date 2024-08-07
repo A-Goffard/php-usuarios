@@ -18,7 +18,7 @@
         <li class="header">Menú de navegación</li>
         
         <li>
-          <a href="usuarios">
+          <a href="index.php?pagina-usuarios">
             <i class="fa fa-user"></i><span>Usuarios</span>
           </a>
         </li>

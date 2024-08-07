@@ -43,7 +43,19 @@
 
   <div class="content-wrapper">
 
+  <?php
   
+    if(isset($_GET['pagina'])) {
+
+      if($_GET['pagina']== "usuarios" || 
+      $_GET['pagina']== "roles") {
+
+        include "paginas/".$_GET['pagina'].".php";
+      }
+    }
+
+
+?>
 
   </div>
 
